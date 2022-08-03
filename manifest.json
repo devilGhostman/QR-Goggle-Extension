@@ -1,0 +1,22 @@
+{
+    "name":"QRCode_Generator",
+    "version" : "0.01",
+    "manifest_version" : 2,
+    "description": "Generate QR Code",
+    "author": "Rahul Kumar",
+
+    "browser_action":{
+        "default_popup" : "index.html",
+        "browser_style": true,
+        "default_icon":"./images/qr.png",
+        "default_title":"Generate QR Code"
+
+    },
+
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+
+
+}
